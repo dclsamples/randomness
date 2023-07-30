@@ -1,7 +1,7 @@
 const { expect } = require("chai");
 const hre = require("hardhat");
 
-describe("Attack", () => {
+describe("Randomness Attack", () => {
   it("Should be able to guess the exact number", async () => {
     // Deploy the Game Contract
     const gameContract = await hre.ethers.deployContract("Game", [], {
